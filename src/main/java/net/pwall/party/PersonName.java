@@ -20,6 +20,7 @@ public class PersonName extends PartyName {
         this(surname, givenNames, false);
     }
 
+    @Override
     public String getDisplayName() {
         StringBuilder sb = new StringBuilder();
         if (surnameFirst && surname != null)

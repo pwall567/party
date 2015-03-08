@@ -12,6 +12,7 @@ public class OrganizationName extends PartyName {
         this.name = name;
     }
 
+    @Override
     public String getDisplayName() {
         return name;
     }
